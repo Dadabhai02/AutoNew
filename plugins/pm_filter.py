@@ -732,7 +732,7 @@ async def auto_filter(client, msg, spoll=False):
             search = message.text
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
-                await client.send_message(file_req_channel,f"")]]))
+                await client.send_message(file_req_channel,
                 l = await message.reply_text(text=f"")]]))
                 await asyncio.sleep(12)
                 await l.delete()
