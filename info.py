@@ -32,18 +32,18 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Leo:Loki@cluster0.mskg6xh.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Leo")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001654788559'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DaDa_linkz')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>📝𝑭𝒊𝒍𝒆 𝑵𝒂𝒎𝒆</b> : `{file_name}` \n\n<b>🖇️ 𝑺𝒊𝒛𝒆</b> - {file_size} \n\n<b>𝐽𝑜𝑖𝑛 𝑀𝑜𝑣𝑖𝑒𝑠 𝑈𝑝𝑑𝑎𝑡𝑒𝑠</b> <b>[ DaDa Linkz ](T.me/dada_linkz)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "**🎞 Tɪᴛʟᴇ** : <a href={url}>{title}</a> \n\n**🎭 Gᴇɴʀᴇᴤ** : </b>: {genres} \n\n**📆 Yᴇᴀʀ** : <a href={url}/releaseinfo>{year}</a> \n\n**🌟 Rᴀᴛɪɴɢ** : <a href={url}/ratings>{rating}</a> \n\n**📀 Rᴜɴᴛɪᴍᴇ** :  {runtime} Minutes \n\n**📆 Rᴇʟᴇᴀᴤᴇ Iɴғᴏ** : {release_date} \n\n**✅ Powered by** : **[ DaDa Linkz ](t.me/dada_linkz)**")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
