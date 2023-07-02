@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             ],[
 
-            InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ▼, url='https://t.me/dada_linkz'),
+            InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ▼', url='https://t.me/dada_linkz'),
 
             InlineKeyboardButton('𝖬𝗈𝗏𝗂𝖾𝗌 𝖦𝗋𝗈𝗎𝗉 ▼', url='https://t.me/Dada_linkz/8')
 
