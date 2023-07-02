@@ -388,18 +388,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/f7f173057c2b76940c79c.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
+                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/9a5c607b6173a47f648c9.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}</b> \n\n<i>You Not Know How To Download?, Click Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Button</i> ", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
+                    InlineKeyboardButton('Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ?', url=HOW_TO_DOWNLOAD)
                 ],
                 [
                     InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                 ]]))
-                await query.answer('Cʟɪᴄᴋ °Cʜᴇᴄᴋ Bᴏᴛ Pᴍ° Bᴜᴛᴛᴏɴ\n\nI Sᴇɴᴛᴇᴅ U ASᴋᴇᴅ Fɪʟᴇs', show_alert=True)
+                await query.answer('Cʜᴇᴄᴋ Bᴏᴛ Pᴍ \n\nI Sᴇɴᴛᴇᴅ U ASᴋᴇᴅ Fɪʟᴇs', show_alert=True)
         except UserIsBlocked:
-            await query.answer('Fɪʀsᴛ Sᴛᴀʀᴛ Mᴇ Tʜᴇɴ I Wɪʟʟ Sᴇɴᴅ Fɪʟᴇs !', show_alert=True)
+            await query.answer('', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
