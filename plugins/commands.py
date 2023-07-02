@@ -57,6 +57,9 @@ async def start(client, message):
 
             ],[
 
+            InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍 𝖬𝖾  🫡', callback_data= 'about')
+            ],[
+
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
 
         ]]
@@ -110,6 +113,10 @@ async def start(client, message):
             ],[
 
             InlineKeyboardButton('𝖡𝗈𝗍 𝖮𝗐𝗇𝖾𝗋 🐣', url='https://t.me/DaDaXBhai')
+            
+            ],[
+            
+            InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍 𝖬𝖾  🫡', callback_data= 'about')
 
             ],[
 
