@@ -734,7 +734,7 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=False)
             if not files:
                 await client.send_message
-                l = await message.reply_text(text=f""))
+                l = await message.reply_text
                 await asyncio.sleep(0)
                 await l.delete()
                 if settings["spell_check"]:
