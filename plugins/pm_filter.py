@@ -735,8 +735,7 @@ async def auto_filter(client, msg, spoll=False):
             if not files:
                 await client.send_message(file_req_channel,f"",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("", callback_data="close_data")]]))
-                l = await message.reply_text(text=f"",
-                                                                                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("", url=f')],[InlineKeyboardButton("", url=""), InlineKeyboardButton("", url=""), InlineKeyboardButton("", url="")],[InlineKeyboardButton("", callback_data="close_data")]]))
+                l = await message.reply_text(text=f""))
                 await asyncio.sleep(0)
                 await l.delete()
                 if settings["spell_check"]:
