@@ -25,7 +25,7 @@ class script(object):
 ➲ 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳 <a href=https://t.me/Dada_offil>𝖣𝖺𝖣𝖺 𝖡𝗁𝖺𝗂 🤾🏻‍♂️</a>
 ➲ 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦  : 𝘗𝘺𝘵𝘩𝘰𝘯 3
 ➲ 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦 : 𝘔𝘰𝘯𝘨𝘰𝘋𝘉
-➲ 𝘉𝘰𝘵 𝘚𝘦𝘳𝘷𝘦𝘳 :[𝘍𝘳𝘦𝘦 𝘏𝘰𝘴𝘵](https://t.me/DaDaXBhai/12)"""
+➲ 𝘉𝘰𝘵 𝘚𝘦𝘳𝘷𝘦𝘳 :<a href=https://t.me/DaDaXBhai/12>𝘍𝘳𝘦𝘦 𝘏𝘰𝘴𝘵</a></b>"""
 
     SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
 
