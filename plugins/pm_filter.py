@@ -388,7 +388,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/9a5c607b6173a47f648c9.jpg', caption = f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}</b> \n\n<i>You Not Know How To Download?, Click Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Button</i> ", 
+                await client.send_photo(chat_id=query.from_user.id, photo='https://graph.org/file/9a5c607b6173a47f648c9.jpg', caption = f"<b>𝙉𝙖𝙢𝙚 >: <code>{files.file_name}</code> \n\n𝙎𝙞𝙯𝙚 🔖: {get_size(files.file_size)}</b> \n\n<i>if You Not Know How To Download? \nClick Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Button ▽</i> ", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
