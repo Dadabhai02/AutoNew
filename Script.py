@@ -22,7 +22,7 @@ class script(object):
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>Ｍｙ Ｎａｍｅ: <a href=https://t.me/DADA_LINKZ>ＤａＤａ Ｘ  Ｍｏｖｉｅｓ Ｆｉｌｔｅｒ Ｂｏｔ</a>
+    ABOUT_TXT = """<b>𝖬𝗒 𝖭𝖺𝗆𝖾: <a href=https://t.me/DADA_LINKZ>𝖣𝖺𝖣𝖺 𝖷 𝖬𝖾𝖽𝗂𝖺 ⚰️</a>
 ➲ 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳 <a href=https://t.me/Dada_offil>𝖣𝖺𝖣𝖺 𝖡𝗁𝖺𝗂 🤾🏻‍♂️</a>
 ➲ 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦  : 𝘗𝘺𝘵𝘩𝘰𝘯 3
 ➲ 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦 : 𝘔𝘰𝘯𝘨𝘰𝘋𝘉
