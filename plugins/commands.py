@@ -94,7 +94,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Tʀʏ Aɢᴀɪɴ 🔄", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**எனது அப்டேட்ஸ் சேனலில் சேராமல் நீங்கள் எந்த Movies Files பெற மாட்டீர்கள்... !! இப்போதே சேர்ந்து(Try Again)மீண்டும் முயற்சிக்கவும் Please Join My Updates Channel to use this Bot!**",
+            text="**எனது அப்டேட்ஸ் சேனலில் சேராமல் நீங்கள் எந்த Movies Files பெற மாட்டீர்கள்... !! இப்போதே சேர்ந்து(Try Again)மீண்டும் முயற்சிக்கவும் \n\nPlease Join My Updates Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
